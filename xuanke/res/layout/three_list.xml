@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:padding="3dip"
+    android:id="@+id/three_list" >
+    <TableRow
+        > 
+
+        <TextView
+            android:id="@+id/Class_Name"
+            android:layout_width="1dip"
+            android:layout_height="25dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_horizontal"
+            android:text="德玛西亚之力" />
+
+        <ImageView
+            android:id="@+id/icon" 
+            android:layout_width="1dip"
+            android:gravity="center_horizontal"
+            android:layout_height="25dp"
+            android:src="@drawable/no"/>
+        
+</TableRow>
+</TableLayout>
