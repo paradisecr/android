@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dip"
+    android:stretchColumns="*"
+    android:id="@+id/courseSignListViewModel">
+    
+    <TableRow>
+        <TextView 
+            android:gravity="center_horizontal"
+            android:layout_width="1dip"
+            android:id="@+id/courseTimeInCourseListView"/>
+        <TextView 
+            android:gravity="center_horizontal"
+            android:layout_width="1dip"
+            android:id="@+id/isSignedInCourseListView"/>
+    </TableRow>
+</TableLayout>
