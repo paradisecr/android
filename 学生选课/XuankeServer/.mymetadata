@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="XuankeServer"
+  id="myeclipse.1404210017104"
+  context-root="/XuankeServer"
+  j2ee-spec="5.0"
+  archive="XuankeServer.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

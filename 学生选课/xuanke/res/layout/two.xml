@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBFFFF"
+    android:gravity="fill_vertical" >
+    
+    <Button
+        android:id="@+id/butXuanKe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="   选                课    " />
+
+    <Button
+        android:id="@+id/butChaKan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/butXuanKe"
+        android:layout_below="@+id/butXuanKe"
+        android:layout_marginTop="20dp"
+        android:text=" 查 看 已 选 课 程  " />
+
+    <Button
+        android:id="@+id/butTuiXuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/butChaKan"
+        android:layout_below="@+id/butChaKan"
+        android:layout_marginTop="20dp"
+        android:text="   退                选    " />
+
+    <Button
+        android:id="@+id/butTuiChu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/butTuiXuan"
+        android:layout_below="@+id/butTuiXuan"
+        android:layout_marginTop="20dp"
+        android:text="   退                出    " />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="21dp"
+        android:text="欢迎：" />
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="**同学" />
+    
+</RelativeLayout>
